@@ -1,0 +1,15 @@
+Goal:
+Automatically detect height off ground, and use to determine when to deploy a drogue chute + main chute at minimum possible time to 
+minimise wind effect on the craft
+
+
+-Barometer
+-Accelerometer
+-SD logger
+-433mhz transceivers for telemetry
+BASED ON ARDUINO UNO (+Nano for ground telemetry)
+
+
+
+Time to ground function? t= sqrt of s/(U+0.5a)
+^from this, find minimum T to deploy main/drogue chute to minimise parachute descent time
